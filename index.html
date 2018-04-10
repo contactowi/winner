@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>TITULO</title>
+		<link rel="icon" href="img/1.jpg"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+ 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+ 		<link rel="stylesheet" href="styles/main.css"/>
+	</head>
+	<body class="container">
+		<header>
+			<h1>
+				<a sref="inicio">
+					<img src="img/1.jpg" alt="logo del sitio"/>
+				</a>
+				Titulo
+			</h1>
+		</header>
+		
+		<nav class="navbar navbar-expand-sm bg-light">
+  			<ul class="navbar-nav">
+    			<li class="nav-item">
+      				<a class="nav-link" sref="inicio">Inicio</a>
+   				 </li>
+   			 	 <li class="nav-item">
+      				<a class="nav-link" sref="aboutUs">abaut</a>
+    			</li>
+    			<li class="nav-item">
+      				<a class="nav-link" sref="#">Link 3</a>
+    			</li>
+  			</ul>
+  			<div class="form-inline" action="/action_page.php">
+    			<input id="txtBuscar" class="form-control mr-sm-2" type="text" placeholder="Ingrese busqueda">
+    			<button id="btnBuscar" class="btn btn-success" type="submit">Buscar</button>
+  			</div>
+		</nav>
+		<main></main>
+
+	</body>
+	<script src="app/services/router.js"></script>
+	<script src="app/models/sModel.js"></script>
+	<script src="app/controllers/sController.js"></script>
+	<script src="app/views/sView.js"></script>
+	<script src="app/app.js"></script>
+</html>
