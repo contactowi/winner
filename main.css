@@ -1,0 +1,48 @@
+img, embed, video, object {
+	max-width: 100%;
+}
+
+body {
+	font-size: 16px;
+}
+
+header img {
+	width: 100px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.boxContainer {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.boxContainer img {
+	width: 200px;
+	height: 200px;
+}
+
+.xContainer {
+	width: 300px;
+	text-align: center;
+	margin: 10px;
+}
+
+@media screen and (max-width: 500px) {
+	.xContainer {
+		width: 200px;
+		text-align: center;
+		margin: 10px;
+	}
+}
+
+@media screen and (max-width:800px) {
+	.xContainer {
+		width: 300px;
+		text-align: center;
+		margin: 10px;
+	}
+}
